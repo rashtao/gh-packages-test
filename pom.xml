@@ -6,7 +6,7 @@
 
     <groupId>org.rashtao.gh.packages</groupId>
     <artifactId>demo</artifactId>
-    <version>1.0.8</version>
+    <version>1.0.13</version>
 
     <distributionManagement>
         <repository>
@@ -41,6 +41,11 @@
                         </goals>
                     </execution>
                 </executions>
+            </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-deploy-plugin</artifactId>
+                <version>3.0.0-M1</version>
             </plugin>
         </plugins>
     </build>
