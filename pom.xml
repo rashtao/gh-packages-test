@@ -6,7 +6,7 @@
 
     <groupId>org.rashtao.gh.packages</groupId>
     <artifactId>demo</artifactId>
-    <version>1.0.13</version>
+    <version>1.0.20</version>
 
     <distributionManagement>
         <repository>
