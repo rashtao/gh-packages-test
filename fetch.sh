@@ -1,7 +1,8 @@
 #!/bin/bash
 
-rm ~/.m2/repository/org/rashtao/gh/packages/demo/1.0.20 -Rf
-ls -all ~/.m2/repository/org/rashtao/gh/packages/demo
+rm ~/.m2/repository/demo/demo/0.0.1 -Rf
+ls -all ~/.m2/repository/demo/demo
 mvn org.apache.maven.plugins:maven-dependency-plugin:3.1.1:get \
-    -DrepositoryId=github \
-    -Dartifact=org.rashtao.gh.packages:demo:1.0.20
+    -DrepositoryId=io.cloudrepo \
+    -Dartifact=demo:demo:0.0.1
+
